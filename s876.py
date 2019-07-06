@@ -1,9 +1,8 @@
-
-myinput=int(input())
-temp=myinput
-if(myinput==2):
+myinputs=int(input())
+temp=myinputs
+if(myinputs==2):
   print('no')
-elif(myinput % 1 ==0 and myinput % temp==0 and myinput%2!=0 and myinput%3!=0 and myinput%4!=0):
+elif(myinputs % 1 ==0 and myinputs % temp==0 and myinputs%2!=0 and myinputs%3!=0 and myinputs%4!=0):
   print('no')
 else:
   print('yes')
