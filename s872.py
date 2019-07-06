@@ -1,8 +1,7 @@
-myinput=input()
-x=['a','i','e','o','u']
-for i in x:
-  if i in myinput:
-    print('yes')
-    break;
-  else:
-    print('no')
+inputs=input()
+vow=['a','e','i','o','u']
+x=any(c in inputs for c in vow)
+if(x==True):
+  print('yes')
+else:
+  print('no')
